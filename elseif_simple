@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a = 15;
+if(a==10)
+{
+cout<<"This is executed";
+}
+else if (a==5)
+{
+cout<<"This is executed i.e elseif";
+}
+else
+{
+cout<<"None of the above is executed ";
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
