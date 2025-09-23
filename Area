@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int Length = 11,Breadth = 13;
+    int Area = Length * Breadth;
+    cout << Area << endl;
+    
+    int Perimeter = 2 *(Length * Breadth);
+    cout << 2 * ( 11 + 13 );
+
+}
