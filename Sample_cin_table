@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int N;
+    cout << "Enter a Number :";
+    cin >> N;
+    cout << N << " ";
+    cout << (N * 2) << " ";
+    cout << (N * 3) << " ";
+    cout << (N * 4) << " ";
+    cout << (N * 5) << " ";
+    cout << (N * 6) << " ";
+    cout << (N * 7) << " ";
+    cout << (N * 8) << " ";
+    cout << (N * 9) << " ";
+    cout << (N * 10) << " ";
+    cout << (N * 11) << " ";
+    cout << (N * ) << " ";
+}
