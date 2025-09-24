@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+bool isEven(int N)
+{
+    return (N % 2 ==0);
+}
+int main()
+{
+    int N=10;
+    if (isEven(N))
+    {
+        cout << "is even no";
+    }
+    else 
+    {
+        cout << " is odd no";
+    }
+}
