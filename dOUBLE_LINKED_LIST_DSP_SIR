@@ -1,0 +1,24 @@
+    #include<iostream>
+using namespace std;
+class Node {
+public:
+    int data;
+    Node* PREV;
+    Node* NEXT;
+    Node(int value) 
+    {
+        data = value;
+        PREV = NULL;
+        NEXT =NULL ;
+    }
+}; 
+int main()
+{
+    Node* Node1 = new Node(100);
+    Node* Node2 = new Node(200);
+    Node1 -> NEXT = Node2;
+    Node2 -> PREV = Node1;
+    cout << Node1->NEXT->data;
+    cout << Node2->PREV->data;
+return 0;    
+}
